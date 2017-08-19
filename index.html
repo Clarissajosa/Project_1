@@ -1,60 +1,181 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>My geng</title>
-        <meta charset="UTF-8">
+        <title>Me vs the World</title>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="css/style.css" rel="stylesheet">
-
-       <style>
-        h2 {color:crimson; background-color:grey;}
-        .satu{background-color:greenyellow;}
-  
-        </style>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>       
+    
+    <style>
+        body {
+        font: 20px Montserrat, sans-serif;
+        line-height: 1.8;
+        color: #f5f6f7;
+          }
+        p {font-size: 16px;}
+        .margin {margin-bottom: 45px;}
+        
+        .bg-1 { 
+        background-color: #ff9999; /* soft pink */
+        color: #ffffff;
+        }
+        .bg-2 { 
+        background-color: #474e5d; /* Dark Blue */
+        color: #ffffff;
+        }
+        .bg-3 { 
+            background-color: #ffffff; /* White */
+            color: #555555;
+        }
+        .bg-4 { 
+        background-color: #2f2f2f; /* Black Gray */
+        color: #fff;
+        }
+        .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+        }
+        .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 5px;
+         }
+        .navbar-nav  li a:hover {
+         color: #1abc9c !important;
+        }
+    </style>
 
        
     </head>
     <body>
-        <h1 style="color:coral; background-color:darkolivegreen; font-family:Arial, Helvetica, sans-serif;">lalala</h1>
-        <h2 class="satu">yeyeye</h2>
-        <h1>lalala</h1>
-        <h5>yeyeye</h5>
+       <!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">MY BLOG</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#AboutMe">ME</a></li>
+        <li><a href="#Strange">MY STRANGE</a></li>
+        <li><a href="#Portfolio">PORTFOLIO</a></li>
+        <li><a href="#ContactMe">CONTACT ME</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
 
-        <!--<p>Kisah ini benar-benar dialami Oleh teman Madjongke.com sendiri. Sebut saja namanya Ida, Ida merupakan Wanita dari Kota A dan punya Paman (adik kandung Orang Tua Ida) tinggal di Kota B akan tetapi memiliki usaha di Kota salatiga. Ida bisa tinggal di Salatiga karena menempuh pendidikan di Kota tersebut. Sementara Paman Ida, hanya seminggu sekali mengunjungi Kota Salatiga untuk keperluan bisnis sekaligus menjenguk Ida.-->
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <h3 class="margin">HI EVERYONE</h3>
+  <img src="img/me.jpg" class="img-responsive img-circle margin" style="display:inline" alt="clarissa" width="350" height="350">
+  <h3>Clarissa Amanda Josaputri</h3>
+</div>
 
-Berawal dari perkenalan melalui teman ida hingga akhirnya dekat dengan penulis madjongke.com, Ida banyak bercerita tentang kehidupan pribadinya. Agar lebih mudah, berikut pengakuan Ida kepada penulis madjongke yang sudah Saya susun ulang sedemikian rupa untuk pembaca tercinta.</p>
+<!-- Second Container -->
+<div id="AboutMe" class="container-fluid bg-2 text-center">
+  <h3 class="margin">About Me</h3>
+  <p> hai gue clarissa, oke mungkin ini introduce sedikit tentang gue. Gue adalah seorang anak ke dua dari tiga bersaudara
+      yang terlihat seperti anak biasa lainnya. Tapi kehidupan gue ga se-simple yang kalian fikirkan. #apasi_sumpah_gajelas </p>
+  </a>
+</div>
+<!-- Third Container -->
+<div id="Strange" class="container-fluid text-center" style="color:#ff9999;">
+  <h2>MY STRANGE</h2>
+  <h4>you'll see</h4>
+  <br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-off logo-small"></span>
+      <h4>POWERFULL</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-heart logo-small"></span>
+      <h4>LOVE</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-lock logo-small"></span>
+      <h4>JOB DONE</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+  </div>
+  <br><br>
+  <div class="row slideanim">
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-leaf logo-small"></span>
+      <h4>GREEN</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4" style="color:#ff9999;">
+      <span class="glyphicon glyphicon-certificate logo-small"></span>
+      <h4>DEDICATED</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+    <div class="col-sm-4">
+      <span class="glyphicon glyphicon-wrench logo-small"></span>
+      <h4>HARD WORK</h4>
+      <p>Lorem ipsum dolor sit amet..</p>
+    </div>
+  </div>
+</div>
 
-<p>Kisah ini benar-benar dialami Oleh teman Madjongke.com sendiri. Sebut saja namanya Ida, Ida merupakan Wanita dari Kota A dan punya Paman (adik kandung Orang Tua Ida) tinggal di Kota B akan tetapi memiliki usaha di Kota salatiga. Ida bisa tinggal di Salatiga karena menempuh pendidikan di Kota tersebut. Sementara Paman Ida, hanya seminggu sekali mengunjungi Kota Salatiga untuk keperluan bisnis sekaligus menjenguk Ida.
+<!-- Fourth Container (Grid) -->
+<div id="Portfolio" class="container-fluid bg-2 text-center">    
+  <h3 class="margin">PORTFOLIO</h3>
+      <p>what i have created.</p>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/DAK3j_uaSOM" frameborder="0" allowfullscreen></iframe>
+      
+  
+</div>
 
-Berawal dari perkenalan melalui teman ida hingga akhirnya dekat dengan penulis madjongke.com, Ida banyak bercerita tentang kehidupan pribadinya. Agar lebih mudah, berikut pengakuan Ida kepada penulis madjongke yang sudah Saya susun ulang sedemikian rupa untuk pembaca tercinta.</p>
-       
-        <a href="https://www.w3schools.com/html/">Visit our HTML tutorial</a>
-        
-        <img src="http://crizaze.com/wp-content/uploads/2014/12/modeling-agency.jpg" alt="Model Cute">
-        <img src="img/1.png" alt="">
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/I3yiC1LoyV4?ecver=1" frameborder="0" allowfullscreen></iframe>
-       <br>
-        <input type="text" name="" value="" placeholder="Input Your Name Here">
-        
-        <button>Pilih</button>
+<!-- Container (Contact Section) -->
+<div id="ContactMe" class="container-fluid bg-grey" style="color:#474e5d;">
+  <h2 class="text-center">CONTACT</h2>
+  <div class="row">
+    <div class="col-sm-5">
+      <p>Contact me and we'll get back to you within 12 hours.</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Tangerang, ID</p>
+      <p><span class="glyphicon glyphicon-phone"></span> 085290403633</p>
+      <p><span class="glyphicon glyphicon-envelope"></span> clarissamandajo94@gmail.com</p>
+    </div>
+    <div class="col-sm-7 slideanim">
+      <div class="row">
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+        </div>
+        <div class="col-sm-6 form-group">
+          <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
+        </div>
+      </div>
+      <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea><br>
+      <div class="row">
+        <div class="col-sm-12 form-group">
+          <button class="btn btn-default pull-right" type="submit">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-<table style="width:100%">
-  <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
-  </tr>
-</table>   
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <p>Thanks to visit my blog</p> 
+</footer>
     </body>
 
 </html>
